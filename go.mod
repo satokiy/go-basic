@@ -2,4 +2,8 @@ module go-basics
 
 go 1.20
 
-require github.com/joho/godotenv v1.5.1
+require (
+	go.uber.org/goleak v1.2.1
+	golang.org/x/exp v0.0.0-20230425010034-47ecfdc1ba53
+	golang.org/x/tour v0.1.0
+)
